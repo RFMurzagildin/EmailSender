@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Отправить сообщение</title>
+</head>
+<body>
+<h1>Отправить сообщение</h1>
+<form action="/receive" method="post">
+  <label>
+    Email:<br>
+    <input type="email" name="mail" required>
+  </label><br><br>
+
+  <label>
+    Текст сообщения:<br>
+    <textarea name="text" rows="5" cols="50" required></textarea>
+  </label><br><br>
+
+  <button type="submit">Отправить</button>
+</form>
+</body>
+</html>
